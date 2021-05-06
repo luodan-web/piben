@@ -1,0 +1,19 @@
+{
+  "name": "uni-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:the-world-is-beautiful/uni_shop_frontend.git"
+  },
+  "author": "joelzheng",
+  "license": "MIT",
+  "dependencies": {
+    "jweixin-module": "^1.6.0",
+    "vuex-persistedstate": "^3.1.0"
+  }
+}

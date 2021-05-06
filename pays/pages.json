@@ -1,0 +1,323 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "花呗分期权益卡",
+				// "navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"backgroundColor": "#fff"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/first",
+			"style": {
+				"navigationBarTitleText": "套餐",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"backgroundColor": "#fff"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/sconed",
+			"style": {
+				"navigationBarTitleText": "办理成功",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"backgroundColor": "#fff"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/set/set",
+			"style": {
+				"navigationBarTitleText": "参与活动手机号",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"backgroundColor": "#fff"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/thrid",
+			"style": {
+				"navigationBarTitleText": "礼品",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"backgroundColor": "#fff"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"backgroundColor": "#fff"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/address/addressManage",
+			"style": {
+				"navigationBarTitleText": "增加地址",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"backgroundColor": "#fff"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/address/bianji",
+			"style": {
+				"navigationBarTitleText": "编辑地址",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"backgroundColor": "#fff"
+					}
+				}
+			}
+		},
+		
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单列表",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#f75a32",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/earnings/earnings",
+			"style": {
+				"navigationBarTitleText": "收益报表",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#f75a32",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/team/team",
+			"style": {
+				"navigationBarTitleText": "粉丝团队",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#f75a32",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/garde",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+
+			}
+		},
+		{
+			"path": "pages/user/history",
+			"style": {
+				"navigationBarTitleText": "历史公告",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"backgroundColor": "#FFFFFF"
+					}
+				}
+
+			}
+		},
+		// {
+		// 	"path": "pages/user/quite",
+		// 	"style": {
+		// 		"navigationBarTitleText": "退出登录",
+		// 		"app-plus": {
+		// 			"bounce": "none",
+		// 			"titleNView": {
+		// 				"backgroundColor": "#FFFFFF"
+		// 			}
+		// 		}
+
+		// 	}
+		// },
+		{
+			"path": "pages/user/invite",
+			"style": {
+				"navigationBarTitleText": "邀请分享",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"backgroundColor": "#FFFFFF"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/user/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/user/wuLiu",
+			"style": {
+				"navigationBarTitleText": "物流"
+			}
+		},
+		{
+			"path": "pages/mony/pay",
+			"style": {
+				"navigationBarTitleText": "余额提现",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#fff",
+						"titleSize":"32upx",
+						"buttons":[{
+						"color":"#000000",
+							"fontSize":"28upx",
+							"text":"记录"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mony/alipay",
+			"style": {
+				"navigationBarTitleText": "绑定支付宝",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#fff",
+						"titleSize":"32upx",
+						"buttons":[{
+						"color":"#000000",
+							"fontSize":"28upx",
+							"text":"修改"
+						}]
+					}
+				}
+
+			}
+		},
+		{
+					"path": "pages/mony/xiugai",
+					"style": {
+						"navigationBarTitleText": "修改支付宝",
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": {
+								"backgroundColor": "#FFFFFF"
+							}
+						}
+		
+					}
+				},
+		{
+					"path": "pages/mony/tixian",
+					"style": {
+						"navigationBarTitleText": "提现记录",
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": {
+								"backgroundColor": "#FFFFFF"
+							}
+						}
+		
+					}
+				},
+		{
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+
+			}
+		},
+		{
+			"path": "pages/public/register",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/public/password",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#f73139",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-current.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tab-my.png",
+				"selectedIconPath": "static/tab-my-current.png",
+				"text": "我的"
+			}
+		]
+	}
+}
